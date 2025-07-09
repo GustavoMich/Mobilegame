@@ -785,36 +785,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &473445394 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5531986718136724959, guid: 89e20167823a30d459856414377997d1, type: 3}
-  m_PrefabInstance: {fileID: 1464317906}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &473445395 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7193805671317595757, guid: 89e20167823a30d459856414377997d1, type: 3}
-  m_PrefabInstance: {fileID: 1464317906}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &473445396
+--- !u!114 &473445396 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6670877038381168219, guid: 89e20167823a30d459856414377997d1, type: 3}
+  m_PrefabInstance: {fileID: 1464317906}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473445394}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5699a7f98348bfb4e966dea806ff32dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 473445395}
-  animatorSetups:
-  - type: 0
-    trigger: idle
-  - type: 1
-    trigger: run
-  - type: 2
-    trigger: dead
 --- !u!1001 &531880527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1011,104 +992,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557296387}
   m_CullTransparentMesh: 1
---- !u!1001 &575132836
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.08
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.63
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.82
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_Name
-      value: MDL_Astronaut Legacy
-      objectReference: {fileID: 0}
-    - target: {fileID: 2223639932434330405, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 1827226128182048838, guid: b85985cab16218043be313b91d5396f0, type: 3}
-    - target: {fileID: 2223639932434330405, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_Animations.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2223639932434330405, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_Animations.Array.data[0]
-      value: 
-      objectReference: {fileID: 1827226128182048838, guid: ad718cefdc94430438a980c1ea9ca383, type: 3}
-    - target: {fileID: 2223639932434330405, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-      propertyPath: m_Animations.Array.data[1]
-      value: 
-      objectReference: {fileID: 1827226128182048838, guid: b85985cab16218043be313b91d5396f0, type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
---- !u!1 &575132837 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-  m_PrefabInstance: {fileID: 575132836}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &575132838 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 2223639932434330405, guid: c08aa1a9dc9283c4cadaf9eb5b21bf49, type: 3}
-  m_PrefabInstance: {fileID: 575132836}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &575132839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575132837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1ad560456520a041811d791e8d4c994, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myanimation: {fileID: 575132838}
-  run: {fileID: 1827226128182048838, guid: ad718cefdc94430438a980c1ea9ca383, type: 3}
-  idle: {fileID: 1827226128182048838, guid: b85985cab16218043be313b91d5396f0, type: 3}
 --- !u!1001 &585389277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3139,6 +3022,7 @@ MonoBehaviour:
   tagToCheckEndLine: EndLine
   uiTextPowerUp: {fileID: 1857291131}
   coinCollector: {fileID: 1849483386}
+  animatorManager: {fileID: 473445396}
   invencible: 0
   endScreen: {fileID: 1877387690}
 --- !u!4 &1990566844 stripped

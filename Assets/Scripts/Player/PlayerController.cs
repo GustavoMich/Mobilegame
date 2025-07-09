@@ -23,6 +23,10 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Coin Setup")] 
     public GameObject coinCollector;
 
+
+    [Header("Animator")]
+    public AnimatorManager animatorManager;
+
     private bool _canRun;
     private Vector3 _pos;
     private float _currentSpeed;
@@ -53,9 +57,13 @@ public class PlayerController : Singleton<PlayerController>
 
     private void OnCollisionEnter(Collision colission)
     {
-        if(colission.transform.tag == tagToCheckEnemy)
+        if (colission.transform.tag == tagToCheckEnemy)
         {
-            if(!invencible) EndGame();
+            if (!invencible)
+            {
+                MoveBack();
+                EndGame(AnimatorManager.AnimationType.DEAD);
+            }
         }
     }
 
@@ -67,15 +75,23 @@ public class PlayerController : Singleton<PlayerController>
         }
     }
 
-    private void EndGame()
+    private void MoveBack()
+    {
+        transform.DOMoveZ(-1f, .3f).SetRelative();
+    }
+
+    private void EndGame(AnimatorManager.AnimationType animationType = AnimatorManager.AnimationType.IDLE)
     {
         _canRun = false;
         endScreen.SetActive(true);
+        animatorManager.Play(animationType);
+
     }
 
     public void StartToRun()
     {
         _canRun = true;
+        animatorManager.Play(AnimatorManager.AnimationType.RUN);
     }
 
     #region POWER UPS
