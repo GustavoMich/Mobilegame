@@ -921,6 +921,17 @@ MonoBehaviour:
   levels:
   - {fileID: 7623965722053894879, guid: c036866408ec7344d81a10509dcc08ed, type: 3}
   - {fileID: 7623965722053894879, guid: af284aef79409b44cb9c4f7bf1fe9359, type: 3}
+  levelPiecesStart:
+  - {fileID: 58680781958634796, guid: 7d4e95af2c5c72848bf1a17d1d652380, type: 3}
+  levelPieces:
+  - {fileID: 58680781958634796, guid: 7055ab02ec3e70e4e9c9a76143bb9a10, type: 3}
+  - {fileID: 1544588889689768572, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
+  levelPiecesEnd:
+  - {fileID: 58680781958634796, guid: 3b17045e0b3776d4eac77a3a13cc5c32, type: 3}
+  piecesStartNumber: 3
+  piecesNumber: 5
+  piecesEndNumber: 1
+  timeBetweenPieces: 0.3
   _index: 0
 --- !u!4 &830654092
 Transform:
@@ -2233,7 +2244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6433280697286945279, guid: 7055ab02ec3e70e4e9c9a76143bb9a10, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.82
+      value: 15.85
       objectReference: {fileID: 0}
     - target: {fileID: 6433280697286945279, guid: 7055ab02ec3e70e4e9c9a76143bb9a10, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2263,6 +2274,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7783320281626330104, guid: 7055ab02ec3e70e4e9c9a76143bb9a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.66
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7055ab02ec3e70e4e9c9a76143bb9a10, type: 3}
 --- !u!1001 &6926198191646685506
@@ -2275,6 +2290,14 @@ PrefabInstance:
     - target: {fileID: 1655744466867786823, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
       propertyPath: m_Name
       value: Piece_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592739032245832255, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6836800376237823016, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.27
       objectReference: {fileID: 0}
     - target: {fileID: 6863994626348451454, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
       propertyPath: m_RootOrder
@@ -2290,7 +2313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6863994626348451454, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.69
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 6863994626348451454, guid: 3ceb4bd2e4401b249af6e8b40f4115d4, type: 3}
       propertyPath: m_LocalRotation.w
