@@ -12,13 +12,7 @@ public class LevelManager : MonoBehaviour
 
 
 
-    /*[Header("Pieces")]
-    public List<LevelPieceBase> levelPiecesStart;
-    public List<LevelPieceBase> levelPieces;
-    public List<LevelPieceBase> levelPiecesEnd;
-    public int piecesStartNumber = 3;
-    public int piecesNumber = 5;
-    public int piecesEndNumber = 1;*/
+    
     public float timeBetweenPieces = .3f;
 
     [SerializeField]private int _index;
@@ -89,7 +83,7 @@ public class LevelManager : MonoBehaviour
             CreateLevelPiece(_currSetup.levelPiecesEnd);
         }
 
-        //StartCoroutine(CreateLevelPiecesCoroutine());
+        ColorManager.Instance.ChangeColorByType(_currSetup.artType);
     }
 
     private void CreateLevelPiece(List<LevelPieceBase> list)
