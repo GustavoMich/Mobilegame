@@ -969,7 +969,6 @@ MonoBehaviour:
   levels:
   - {fileID: 7623965722053894879, guid: c036866408ec7344d81a10509dcc08ed, type: 3}
   - {fileID: 7623965722053894879, guid: af284aef79409b44cb9c4f7bf1fe9359, type: 3}
-  - {fileID: 7623965722053894879, guid: a8fd261da502714469a019c49651795e, type: 3}
   levelPieceBasedSetups:
   - {fileID: 11400000, guid: f3ec944c742d8b0489a403dc9ab1cd26, type: 2}
   - {fileID: 11400000, guid: 97595bced9dc4534cbd58f38ddb1bfbc, type: 2}
@@ -1313,12 +1312,8 @@ MonoBehaviour:
     - {r: 0.5896226, g: 1, b: 0.9880682, a: 0}
   - artType: 1
     colors:
-    - {r: 1, g: 0.39999998, b: 0.6861043, a: 0}
+    - {r: 1, g: 0.39999998, b: 0.91651076, a: 0}
     - {r: 0.3254272, g: 0.4115969, b: 0.9716981, a: 0}
-  - artType: 2
-    colors:
-    - {r: 1, g: 0.8821125, b: 0.39999998, a: 0}
-    - {r: 0.28773582, g: 0.71481884, b: 1, a: 0}
 --- !u!4 &1088541762
 Transform:
   m_ObjectHideFlags: 0

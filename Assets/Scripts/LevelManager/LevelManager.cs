@@ -26,7 +26,13 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         //SpawnNextLevel();
+        
+    }
+
+    private void Start()
+    {
         CreateLevelPieces();
+
     }
     
     private void SpawnNextLevel()
@@ -83,7 +89,9 @@ public class LevelManager : MonoBehaviour
             CreateLevelPiece(_currSetup.levelPiecesEnd);
         }
 
-        ColorManager.Instance.ChangeColorByType(_currSetup.artType);
+       ColorManager.Instance.ChangeColorByType(_currSetup.artType);
+        
+
     }
 
     private void CreateLevelPiece(List<LevelPieceBase> list)
@@ -137,4 +145,6 @@ public class LevelManager : MonoBehaviour
             CreateLevelPieces();
         }
     }
+
+   
 }
