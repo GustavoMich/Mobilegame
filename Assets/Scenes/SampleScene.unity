@@ -2067,6 +2067,7 @@ GameObject:
   - component: {fileID: 1983951746}
   - component: {fileID: 1983951750}
   - component: {fileID: 1983951751}
+  - component: {fileID: 1983951745}
   m_Layer: 0
   m_Name: PlayerContainer
   m_TagString: Player
@@ -2074,6 +2075,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1983951745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983951744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b888dcf4444a94ba0ba2e0be3d96a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleDuration: 0.05
+  scaleBounce: 1.2
+  ease: 1
 --- !u!65 &1983951746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2189,6 +2205,7 @@ MonoBehaviour:
   uiTextPowerUp: {fileID: 1857291131}
   coinCollector: {fileID: 1849483386}
   animatorManager: {fileID: 473445396}
+  _bounceHelper: {fileID: 1983951745}
   invencible: 0
   endScreen: {fileID: 1877387690}
 --- !u!1 &2001727331
