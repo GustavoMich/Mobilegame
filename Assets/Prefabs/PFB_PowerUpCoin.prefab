@@ -140,9 +140,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   compareTag: Player
-  particleSystem: {fileID: 0}
-  timeToHide: 1
+  myparticleSystem: {fileID: 0}
+  timeToHide: 0
   graphicItem: {fileID: 226656318437317455}
   audioSource: {fileID: 0}
+  mycollider: {fileID: 3507183337782112588}
+  collect: 0
+  lerp: 5
+  minDistance: 1
   duration: 3
   sizeAmount: 7
