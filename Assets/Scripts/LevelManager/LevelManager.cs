@@ -27,6 +27,7 @@ public class LevelManager : MonoBehaviour
     {
         //SpawnNextLevel();
         
+
     }
 
     private void Start()
