@@ -973,8 +973,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f3ec944c742d8b0489a403dc9ab1cd26, type: 2}
   - {fileID: 11400000, guid: 97595bced9dc4534cbd58f38ddb1bfbc, type: 2}
   - {fileID: 11400000, guid: bd28835c505299b4d97344a63860fcaa, type: 2}
+  scaleDuration: 0.1
+  scaleTimeBetweenPieces: 0.1
+  ease: 27
   timeBetweenPieces: 0.3
   _index: 0
+  _spawnedPieces: []
 --- !u!4 &830654092
 Transform:
   m_ObjectHideFlags: 0
