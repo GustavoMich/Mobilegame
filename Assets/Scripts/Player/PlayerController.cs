@@ -27,6 +27,10 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Animator")]
     public AnimatorManager animatorManager;
 
+    [Header("Animator")]
+    public ParticleSystem vfxDeath;
+
+
     [SerializeField] private BounceHelper _bounceHelper;
 
     private bool _canRun;
@@ -93,7 +97,7 @@ public class PlayerController : Singleton<PlayerController>
         _canRun = false;
         endScreen.SetActive(true);
         animatorManager.Play(animationType);
-
+        if (vfxDeath != null) vfxDeath.Play();
     }
 
     public void StartToRun()
