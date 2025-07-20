@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (19)
@@ -305,6 +309,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (13)
@@ -371,6 +379,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (16)
@@ -437,6 +449,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (18)
@@ -503,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (14)
@@ -569,6 +589,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (15)
@@ -697,6 +721,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (17)
@@ -763,6 +791,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 842c7250651a1754494ef284d6563b14, type: 2}
+    - target: {fileID: 3761519660013717915, guid: d96987abec8348146830a07aea1350ef, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 5592739032245832255}
     - target: {fileID: 4628928791098609193, guid: d96987abec8348146830a07aea1350ef, type: 3}
       propertyPath: m_Name
       value: PFB_Coin (20)
